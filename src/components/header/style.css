@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+header h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--color-secondary);
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  cursor: pointer;
+}
+
+nav li {
+  display: none;
+}
+
+nav a {
+  color: var(--color-font-primary);
+  text-decoration: none;
+}
