@@ -15,10 +15,10 @@ const Header = () => {
 
   return (
     <header>
-      <h1>PROFESSOR OLIVEIRA</h1>
+      <a href='/' className='logo'>PROFESSOR OLIVEIRA</a>
 
       <nav>
-        <a href="" className='about'>Sobre mim</a>
+        <a href="#about" className='about'>Sobre mim</a>
         <div className="cursos-container">
           <p onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>cursos <IoIosArrowDown className='cursos-icon' /></p>
           <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={`container ${isVisible ? 'visible' : 'hidden'}`}>
