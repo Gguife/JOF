@@ -113,6 +113,10 @@ nav a {
 }
 
 @media (max-width: 600px) {
+  header {
+    top: 1rem;
+  }
+  
   nav .about {
     display: none;
   }
