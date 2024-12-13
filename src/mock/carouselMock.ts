@@ -13,21 +13,21 @@ export const carouselMock: ImagesPrototype[]= [
   {
     title: 'Mecânico de aeronaves',
     image: turbina,
-    linkCurso: 'http://localhost:5173/curso' 
+    linkCurso: 'https://professoroliveira.vercel.app/curso' 
   },
   {
     title: 'Piloto de aviao',
     image: airplane,
-    linkCurso: 'http://localhost:5173/curso' 
+    linkCurso: 'https://professoroliveira.vercel.app/curso' 
   },
   {
     title: 'Piloto de helicoptero',
     image: heli,
-    linkCurso: 'http://localhost:5173/curso' 
+    linkCurso: 'https://professoroliveira.vercel.app/curso' 
   },
   {
     title: 'Comissario de voo',
     image: comissario,
-    linkCurso: 'http://localhost:5173/curso' 
+    linkCurso: 'https://professoroliveira.vercel.app/curso' 
   },
 ]
