@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden; 
-  z-index: -1;
+  z-index: 0;
 }
 
 .full-screen-image {
@@ -36,7 +36,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 1;
 }
 
 .overlay-content {
@@ -70,6 +69,7 @@
   font-weight: 700;
   text-decoration: none;
   transition: .4s;
+  cursor: pointer;
 }
 
 
