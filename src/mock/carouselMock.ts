@@ -13,21 +13,21 @@ export const carouselMock: ImagesPrototype[]= [
   {
     title: 'Mecânico de aeronaves',
     image: turbina,
-    linkCurso: 'http://localhost:3000/test' 
+    linkCurso: 'http://localhost:5173/curso' 
   },
   {
     title: 'Piloto de aviao',
     image: airplane,
-    linkCurso: 'http://localhost:3000/test' 
+    linkCurso: 'http://localhost:5173/curso' 
   },
   {
     title: 'Piloto de helicoptero',
     image: heli,
-    linkCurso: 'http://localhost:3000/test' 
+    linkCurso: 'http://localhost:5173/curso' 
   },
   {
     title: 'Comissario de voo',
     image: comissario,
-    linkCurso: 'http://localhost:3000/test' 
+    linkCurso: 'http://localhost:5173/curso' 
   },
 ]
