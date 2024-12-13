@@ -1,0 +1,65 @@
+.cursoPage-section {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursoPage-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursoPage-content img {
+  max-width: 200px;
+}
+
+.cursoPage-content p {
+  font-size: 2rem;
+}
+.cursoPage-content span {
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.cursoPage-content button {
+  margin-top: 3rem;
+  padding: 1rem 5rem;
+  border: none;
+  background-color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+.cursoPage-content button:hover {
+  opacity: .6;
+}
+
+@media (max-width: 900px) {
+  .cursoPage-content img {
+    max-width: 80px;
+  }
+  
+  .cursoPage-content p {
+    font-size: 1.2rem;
+  }
+  .cursoPage-content span {
+    font-size: .9rem;
+  }
+  
+  .cursoPage-content button {
+    padding: .7rem 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  
+  .cursoPage-content p {
+    font-size: 1rem;
+  }
+}
