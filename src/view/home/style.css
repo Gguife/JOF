@@ -1,0 +1,145 @@
+.about-me {
+  position: relative;
+  background-color: var(--color-primary);
+  padding: 2rem;
+  z-index: 2;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.about-profile img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: .7rem;
+}
+.about-profile p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+
+.certificate-icon {
+  font-size: 2rem;
+}
+.certificate-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.certificate {
+  position: relative; 
+  background-color: #999;
+  padding: 2rem;
+  border-radius: 4px;
+  max-width: 400px;
+  color: var(--color-font-secondary);
+}
+.certificate-title {
+  font-weight: 700;
+}
+.certificate-institution {
+  font-size: .9rem;
+  margin-bottom: 1rem;
+}
+.certificate-date {
+  color: var(--color-font-secondary);
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  font-weight: 700;
+}
+.icon-certificate-card {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.show-more {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  margin: 3rem auto;
+  font-size: 1.4rem;
+  color: var(--color-font-primary);
+  cursor: pointer;
+  transition: .3s;
+}
+.show-more:hover {
+  opacity: .6;
+}
+
+
+@media (max-width: 1200px) {
+  .certificate-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .about-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-certificate h3 {
+    display: none;
+  }
+
+  .certificate-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .about-profile img {
+    max-width: 200px;
+  }
+  .about-profile p {
+    font-size: .9rem;
+  }
+  .about-profile span {
+    font-size: .8rem;
+  }
+
+  .certificate-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .certificate {
+    position: relative; 
+    background-color: #999;
+    padding: 2rem;
+    border-radius: 4px;
+    color: var(--color-font-secondary);
+  }
+  .certificate-title {
+    font-size: .9rem;
+  }
+  .certificate-institution {
+    font-size: .8rem;
+  }
+  .certificate-date {
+    font-size: .8rem;
+  }
+
+  
+.show-more {
+  font-size: 1rem;
+}
+}
